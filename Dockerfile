@@ -1,7 +1,7 @@
 FROM tomcat:9.0
 
 # To update, check https://bintray.com/jfrog/artifactory/jfrog-artifactory-oss-zip/view
-ARG ARTIFACTORY_VERSION=5.6.2
+ARG ARTIFACTORY_VERSION=6.3.3
 ARG ARTIFACTORY_URL=https://bintray.com/jfrog/artifactory/download_file?file_path=jfrog-artifactory-oss-${ARTIFACTORY_VERSION}.zip
 ARG ARTIFACTORY_SHA256=c613dfb356625d665ce307847d64d915994c87e9b1b90dfb2fa13c92c3d4ac13
 ENV ARTIFACTORY_HOME=/artifactory \
