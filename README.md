@@ -8,7 +8,7 @@ to be used on OpenShift by running as a non-priviledged user.
    
 ## Run
 
-    docker run -v $(pwd)/artifactory:/artifactory -p 8080:8080 -it widerin/openshift-artifactory-oss:latest
+    docker run -v $(pwd)/artifactory:/artifactory -p 8080:8080 -it nlmacamp/openshift-artifactory-oss:latest
 
 ## Create on openshift
 
