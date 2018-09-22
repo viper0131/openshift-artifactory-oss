@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [6.3.3] - 2018-09-22
+- Upgrade to artifactory-oss 6.3.3
+
 ## [5.6.2] - 2017-12-02
 
 - Upgrade to artifactory-oss 5.6.2
